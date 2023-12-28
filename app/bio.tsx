@@ -3,7 +3,7 @@ import { SquareUserRound, School2, ClipboardList } from "lucide-react";
 
 export default function Bio() {
     return (
-      <div className="flex flex-wrap lg:flex-nowrap justify-center mx-auto	  mt-20 w-9/12">
+      <div className="flex flex-wrap lg:flex-nowrap justify-center mx-auto	mt-20 w-9/12">
         <div className="bg-gradient-to-b from-primary to-secondary p-10 rounded-lg mx-5 w-full">
           <SquareUserRound color="#00FF23" className="w-full size-14" />
           <h3 className="font-bold mt-3 text-center text-2xl pb-5">BIOGRAPHY</h3>

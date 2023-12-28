@@ -3,7 +3,7 @@ import { Wrench, FolderKanban } from "lucide-react";
 export default function Tools() {
   return (
     <div className="flex flex-col md:flex-row justify-around mx-auto mt-20 w-11/12 md:w-9/12">
-      <div className="flex flex-col items-center mb-10 md:mb-0">
+      <div className="bg-gradient-to-b from-primary to-secondary  p-10 flex flex-col items-center mb-10 md:mb-0">
         <div className="flex items-center justify-center mb-5">
           <Wrench color="#00FF23" className="w-16 h-16"/>
           <h3 className="font-bold text-center text-2xl pb-5">WEB TOOLS</h3>
@@ -21,7 +21,7 @@ export default function Tools() {
         </ul>
       </div>
 
-      <div className="flex flex-col items-center">
+      <div className=" bg-gradient-to-b from-primary to-secondary p-10 flex flex-col items-center">
         <div className="flex items-center justify-center mb-5">
           <FolderKanban color="#00FF23" className="w-16 h-16"/>
           <h3 className="font-bold text-center text-2xl pb-5">PRODUCTIVITY TOOLS</h3>
