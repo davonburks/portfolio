@@ -10,7 +10,6 @@ export default function Contact() {
           <a className="flex text-xl font-bold"  href="https://www.linkedin.com/in/davonburks/"><Linkedin  fill="white" size={40}   strokeWidth={0}/> </a>
           <a className="flex text-xl font-bold" href="https://github.com/davonburks"><Github  fill="white"  color="#111" size={40} strokeWidth={0}/> </a>
         </div>
-        
       </div>
     </div>
   );
