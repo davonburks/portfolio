@@ -1,4 +1,4 @@
-import Bio from "../bio";
+import Bio from "./bio";
 import Skills from "./skills";
 import Tools from "./tools";
 export default function About() {

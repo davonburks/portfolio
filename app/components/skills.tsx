@@ -2,7 +2,7 @@ import { Brain } from "lucide-react";
 
 export default function Skills() {
   return (
-    <div className="flex justify-center mx-auto	  mt-20 w-9/12 ">
+    <div className="flex justify-center mx-auto	  mt-20 md:w-9/12">
       <div className="bg-gradient-to-b from-primary to-secondary p-10 rounded-lg mx-5 w-full">
         <div className="flex justify-center items-center mb-5">
           <Brain color="#00FF23" className=" size-16 " />

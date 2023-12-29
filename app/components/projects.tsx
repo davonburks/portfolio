@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <div id="projects">
       
-      <div className="bg-gradient-to-b from-primary to-secondary p-10 rounded-lg mx-auto w-9/12">
+      <div className="bg-gradient-to-b from-primary to-secondary p-10 rounded-lg mx-auto  md:w-9/12">
         <Presentation color="#00FF23" className="w-16 h-16 mx-auto" />
         <h3 className="font-bold text-center text-2xl pb-5">PROJECTS</h3>
         <p className="text-center">
@@ -13,7 +13,7 @@ export default function Projects() {
           in the future!
         </p>
       </div>
-      <div className="flex justify-center mx-auto mt-20 w-9/12 flex-wrap lg:flex-nowrap">
+      <div className="flex justify-center mx-auto mt-20  flex-wrap lg:flex-nowrap  md:w-9/12">
         <div className="bg-gradient-to-b from-primary to-secondary p-10 rounded-lg mx-5 my-5">
           <School2 color="#00FF23" className="w-16 h-16 mx-auto" />
           <h3 className="font-bold text-center text-2xl pb-5">PROJECKOG</h3>
