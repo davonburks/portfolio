@@ -1,9 +1,8 @@
-import Image from 'next/image';
-import NavBar from './navbar';
-import Hero from './hero';
-import About from './about';
-import Projects from './projects';
-import Contact from './contact';
+import NavBar from './components/navbar';
+import Hero from './components/hero';
+import About from './components/about';
+import Projects from './components/projects';
+import Contact from './components/contact';
 export default function Home() {
   return (
     <div>

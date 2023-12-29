@@ -2,7 +2,8 @@ import { Presentation, School2, ClipboardList } from "lucide-react";
 
 export default function Projects() {
   return (
-    <>
+    <div id="projects">
+      
       <div className="bg-gradient-to-b from-primary to-secondary p-10 rounded-lg mx-auto w-9/12">
         <Presentation color="#00FF23" className="w-16 h-16 mx-auto" />
         <h3 className="font-bold text-center text-2xl pb-5">PROJECTS</h3>
@@ -68,6 +69,6 @@ export default function Projects() {
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 }

@@ -8,7 +8,7 @@ export default function NavBar() {
       <ul className="flex flex-col md:flex-row md:space-x-4">
         <li>
           <a
-            href="#home"
+            href="#about"
             className="hover:bg-slate-500 px-3 py-2 rounded block text-center"
           >
             ABOUT
@@ -16,7 +16,7 @@ export default function NavBar() {
         </li>
         <li>
           <a
-            href="#about"
+            href="#projects"
             className="hover:bg-slate-500 px-3 py-2 rounded block text-center"
           >
             PROJECTS
@@ -24,7 +24,7 @@ export default function NavBar() {
         </li>
         <li>
           <a
-            href="#services"
+            href="#contact"
             className="hover:bg-slate-500 px-3 py-2 rounded block text-center"
           >
             CONTACT

@@ -14,3 +14,7 @@ body {
   --secondary-color: #000C18;
   --accent-color: #00FF23;
 }
+
+html {
+  scroll-behavior: smooth;
+}
