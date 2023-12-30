@@ -1,4 +1,4 @@
-import { Presentation, School2, ClipboardList } from "lucide-react";
+import { Presentation, School2, PencilRuler, BookHeart } from "lucide-react";
 
 export default function Projects() {
   return (
@@ -34,7 +34,7 @@ export default function Projects() {
         </div>
 
         <div className="bg-gradient-to-b from-primary to-secondary p-10 rounded-lg mx-5 my-5">
-          <ClipboardList color="#00FF23" className="w-16 h-16 mx-auto" />
+        <BookHeart color="#00FF23" className="w-16 h-16 mx-auto" />
           <h3 className="font-bold text-center text-2xl pb-5">STORY NOTES</h3>
           <h4 className="text-center text-xl italic text-accent pb-5">
             STARTUP LANDING PAGE
@@ -51,7 +51,7 @@ export default function Projects() {
         </div>
 
         <div className="bg-gradient-to-b from-primary to-secondary p-10 rounded-lg mx-5 my-5">
-          <ClipboardList color="#00FF23" className="w-16 h-16 mx-auto" />
+        <PencilRuler color="#00FF23" className="w-16 h-16 mx-auto" />
           <h3 className="font-bold text-center text-2xl pb-5">WEB X MASTERS</h3>
           <h4 className="text-center text-xl italic text-accent pb-5">
             TOOL DIRECTORY WEBSITE
@@ -65,7 +65,7 @@ export default function Projects() {
             Status: Started Coding
           </p>
           <button className="bg-accent p-3 mx-auto block text-center mt-5 font-bold	rounded">
-            <a href="https://webxmasters.io">Visit Website</a>
+            <a href="https://webxmasters.io" className="">Visit Website</a>
           </button>
         </div>
       </div>
