@@ -2,9 +2,9 @@ import { Main } from "next/document"
 import Image from "next/image";
 export default function Hero() {
     return (
-        <div className="flex flex-col items-center">
-        <h2 className="text-center text-5xl font-bold mt-20 mb-20">I AM DAVON BURKS <br />AND I AM A WEBMASTER</h2>
-        <div className="bg-gradient-to-b from-primary to-secondary p-4 rounded-lg">
+        <div className="flex flex-col items-center mb-10 h-screen">
+        <h2 className="text-center text-5xl font-bold mt-52	">I AM DAVON BURKS <br />AND I AM A WEBMASTER</h2>
+        <div className="bg-gradient-to-b from-primary to-secondary p-4 rounded-lg mt-10">
             <Image 
                 src="/ai-me.png"  
                 width={315}
