@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function NavBar() {
   return (
     <nav
@@ -7,28 +9,36 @@ export default function NavBar() {
       <div className="text-xl font-bold mb-4 md:mb-0"><a href="#">DAVON BURKS</a></div>
       <ul className="flex flex-col md:flex-row md:space-x-4">
         <li>
-          <a
-            href="#about"
+          <Link
+            href="/#about"
             className="hover:bg-slate-500 px-3 py-2 rounded block text-center"
           >
             ABOUT
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="#projects"
+          <Link
+            href="/#projects"
             className="hover:bg-slate-500 px-3 py-2 rounded block text-center"
           >
             PROJECTS
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="#contact"
+          <Link
+            href="/blog"
+            className="hover:bg-slate-500 px-3 py-2 rounded block text-center"
+          >
+            BLOG
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/#contact"
             className="hover:bg-slate-500 px-3 py-2 rounded block text-center"
           >
             CONTACT
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
