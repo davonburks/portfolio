@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import { Main } from "next/document"
 import Image from "next/image";
 export default function Hero() {
@@ -14,6 +15,8 @@ export default function Hero() {
             />
             <h3 className="font-bold mt-3 text-center text-3xl">AI DAVON BURKS</h3>
             <p className="italic text-center text-accent">(Somewhat Accurate)</p>
+            <Button variant="outline">Button</Button>
+
         </div>
     </div>
     );

@@ -1,4 +1,5 @@
 import { Presentation, School2, PencilRuler, BookHeart } from "lucide-react";
+import Link from "next/link";
 
 export default function Projects() {
   return (
@@ -29,7 +30,7 @@ export default function Projects() {
             Status: Landing Page Design
           </p>
           <button className="bg-accent p-3 mx-auto block text-center mt-5 font-bold rounded	">
-            <a href="https://projeckog.com">Visit Website</a>
+            <Link href="https://projeckog.com" target="_blank">Visit Website</Link>
           </button>
         </div>
 
@@ -46,7 +47,7 @@ export default function Projects() {
           </p>
           <p className="text-center text-accent italic">Status: UX Design</p>
           <button className="bg-accent p-3 mx-auto block text-center mt-5 font-bold	rounded">
-            <a href="https://storynotes.io">Visit Website</a>
+            <Link href="https://storynotes.io" target="_blank">Visit Website</Link>
           </button>
         </div>
 
@@ -65,7 +66,7 @@ export default function Projects() {
             Status: Started Coding
           </p>
           <button className="bg-accent p-3 mx-auto block text-center mt-5 font-bold	rounded">
-            <a href="https://webxmasters.io" className="">Visit Website</a>
+            <Link href="https://webxmasters.io" target="_blank">Visit Website</Link>
           </button>
         </div>
       </div>
